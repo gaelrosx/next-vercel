@@ -18,7 +18,7 @@ export default function Contact() {
   )
 }
 
-Contact.getLayout =  function getLayout(page) {
+Contact.getLayout =  function getLayout(page: JSX.Element) {
     return (
         <MainLayout>
             <WhiteLayout>
