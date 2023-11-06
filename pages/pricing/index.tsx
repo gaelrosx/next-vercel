@@ -1,10 +1,10 @@
 
-import { MainLayout} from '../components/layouts/MainLayout'
+import { MainLayout} from '../../components/layouts/MainLayout'
 
-export default function Home() {
+export default function Pricing() {
   return (
     <MainLayout>
-      <h1>Welcom Home</h1>  
+      <h1>Welcom Pricin</h1>  
 
       <h3 className="title">
         Title Home
@@ -12,7 +12,7 @@ export default function Home() {
 
       <p className="description">
           Get startd by editing
-          <code className="code">pages/index.tsx</code>
+          <code className="code">pages/pricing.tsx</code>
       </p>
     </MainLayout>
   )
